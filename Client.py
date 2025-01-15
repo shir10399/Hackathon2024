@@ -6,15 +6,15 @@ import time
 
 # ANSI color codes for output formatting
 class Colors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
+    HEADER = '\033[95m'       # Light Magenta
+    OKBLUE = '\033[94m'       # Medium Blue
+    OKCYAN = '\033[96m'       # Light Cyan
+    OKGREEN = '\033[92m'      # Light Green
+    WARNING = '\033[33m'      # Yellow
+    FAIL = '\033[31m'         # Red
+    ENDC = '\033[0m'          # Reset
+    BOLD = '\033[1m'          # Bold
+    UNDERLINE = '\033[4m'     # Underline
 
 
 # Constants for communication
