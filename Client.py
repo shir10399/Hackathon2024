@@ -23,7 +23,7 @@ MESSAGE_TYPE_OFFER = 0x2  # Message type for server offers
 MESSAGE_TYPE_REQUEST = 0x3  # Message type for client requests
 MESSAGE_TYPE_PAYLOAD = 0x4  # Message type for data payload
 BROADCAST_PORT = 13117  # UDP broadcast port
-BUFFER_SIZE = 4096  # Size of data chunks
+BUFFER_SIZE = 1024*1024  # Size of data chunks
 
 # List to store connection statistics
 connection_stats = []
