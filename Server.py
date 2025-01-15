@@ -9,7 +9,7 @@ MESSAGE_TYPE_OFFER = 0x2  # Message type for "offer"
 MESSAGE_TYPE_REQUEST = 0x3  # Message type for "request"
 MESSAGE_TYPE_PAYLOAD = 0x4  # Message type for "payload"
 BROADCAST_PORT = 13117  # Port used for broadcasting
-BUFFER_SIZE = 4096  # Chunk size for pipelined transfers
+BUFFER_SIZE = 1024*1024  # Chunk size for pipelined transfers
 
 
 def get_broadcast_ip():
